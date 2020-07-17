@@ -1,0 +1,3 @@
+T1234 : -60 seconds
+T1235 : 120 seconds
+T1236 : 90000 seconds
