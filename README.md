@@ -22,3 +22,8 @@ $ java -cp target/transactions_avg_time-1.0-SNAPSHOT.jar Launcher [optional file
 ```bash
 $ java -cp target/transactions_avg_time-1.0-SNAPSHOT.jar Launcher data/transaction_logs_custom.txt data/my_transaction_output.txt
 ```
+
+##### TODO
+- Change output filepath to dir path
+- Add tests covering more scenarios
+- Replace file reading boiler plate code with a less verbose one.
