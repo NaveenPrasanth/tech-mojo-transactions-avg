@@ -53,6 +53,9 @@ public class FileWriteService {
      * @throws IOException
      */
     public static void closeWriter() throws IOException {
+        System.out.println("Find the output files at");
+        System.out.println(Metadata.outputPath+" and ");
+        System.out.println(Metadata.errorOutputPath);
         if(output_fr != null)
             output_fr.close();
         if(error_fr != null)
